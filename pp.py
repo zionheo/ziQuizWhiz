@@ -5,7 +5,7 @@ from openai import AzureOpenAI
 
 api_key = None
 if api_key is None or api_key =="":
-    api_key = st.text_input("api key를 넣어주세요",type="password")
+    api_key = st.text_input("API key를 넣어주세요",type="password")
 
 # Azure OpenAI 설정  
 client = AzureOpenAI(
